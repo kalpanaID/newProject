@@ -1,4 +1,5 @@
 import './App.css';
+import UpdateEmp from './components/employee/updateEmp';
 import Login  from './components/login/login';
 
 function App() {

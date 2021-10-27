@@ -8,7 +8,7 @@ const Login = () => {
         <div class="card">
         <div class="card-body">
             <h3>Login</h3>
-            <div>Sign into your account</div>
+            <div>Sign in to your account</div>
             <div className='div'></div>
             <select class="form-select" aria-label="Default select example" >
                 <option selected>Select User</option>
@@ -17,7 +17,7 @@ const Login = () => {
                 <option value="3">Three</option>
             </select>
             <div className='div'></div>
-            <button class="btn btn-secondary" type="button">Login</button>
+            <button class="btn btn-info" type="button">Login</button>
         </div>
         </div>
         </div>
