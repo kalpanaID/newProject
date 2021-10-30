@@ -17,6 +17,8 @@
   height: 10px;
 }
 
+.child { display: inline-block; }
+
 .App-header {
   background-color: #98b4eb;
   min-height: 100vh;
