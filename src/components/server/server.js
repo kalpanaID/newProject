@@ -80,8 +80,8 @@ passportConfig(passport);
 var mysqlConfig = {
   host: "localhost",
   user: "root",
-  password: "1411",
-  database: "new_schema",
+  password: "1234@abcd",
+  database: "newDB",
 };
 var connection = mysql.createConnection(mysqlConfig);
 
