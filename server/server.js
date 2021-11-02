@@ -80,7 +80,7 @@ passportConfig(passport);
 var mysqlConfig = {
   host: "localhost",
   user: "root",
-  password: "1234@abcd",
+  password: "password",
   database: "newDB",
 };
 var connection = mysql.createConnection(mysqlConfig);
@@ -166,7 +166,10 @@ app.post("/emp", function (req, res) {
     "INSERT INTO employees SET ?",
     params,
     function (error, results, fields) {
-      if (error) throw error;
+      if (error){
+        console.log("~~~~~~~~~~~~~ error ~~~~~" + error);
+         throw error;
+      }
       res.end(JSON.stringify(results));
     }
   );
